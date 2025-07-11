@@ -1,0 +1,15 @@
+[book]
+authors = ["Herbert Wolverson"]
+language = "en"
+multilingual = false
+src = "src"
+title = "RTX Rust Training"
+
+[output.html.playground]
+editable = true
+
+[rust]
+edition = "2024"
+
+[output.html]
+default-theme = "light"
