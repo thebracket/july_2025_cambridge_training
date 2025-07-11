@@ -6,8 +6,9 @@ edition = "2024"
 [dependencies]
 
 [workspace]
-members = [
+members = [ 
     "day1/serialize",
+    "day1/login_library", "day1/login_cli", "day1/rooms_library", "day1/rooms_walker",
 ]
 
 [workspace.dependencies]

@@ -1,0 +1,8 @@
+[package]
+name = "rooms_walker"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rooms_library = { path = "../rooms_library" }
+colored.workspace = true

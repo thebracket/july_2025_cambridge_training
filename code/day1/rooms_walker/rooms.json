@@ -1,0 +1,24 @@
+{
+    "Herbert's Room": {
+        "name": "Herbert's Room",
+        "description": "You are in a server closet, surrounded by blinking lights and humming machines.",
+        "exits": [
+            {
+                "direction": "north",
+                "room_name": "Main Hall"
+            }
+        ],
+        "start": true
+    },
+    "Main Hall": {
+        "name": "Main Hall",
+        "description": "You are in the main hall of the building.",
+        "exits": [
+            {
+                "direction": "south",
+                "room_name": "Herbert's Room"
+            }
+        ],
+        "start": false
+    }
+}
