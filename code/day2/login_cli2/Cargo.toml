@@ -1,0 +1,9 @@
+[package]
+name = "login_cli2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+login_library2 = { path = "../login_library2" }
+clap = { version = "4.5", features = ["derive"] }
+anyhow.workspace = true
