@@ -1,4 +1,4 @@
-# WS: Async TCP Server
+# Async TCP Echo Server
 
 Let's make the TCP echo server from day 2, but async. We'll use the "current_thread" runtime, which is single-threaded.
 
