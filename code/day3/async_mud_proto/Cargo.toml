@@ -1,0 +1,16 @@
+[package]
+name = "async_mud_proto"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default-features = []
+async = ["tokio"]
+
+[dependencies]
+serde.workspace = true
+rooms_library2 = { path = "../../day2/rooms_library2" }
+bincode = "1"
+anyhow.workspace = true
+tokio = { workspace = true, optional = true }
+tracing.workspace = true

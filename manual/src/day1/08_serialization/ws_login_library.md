@@ -54,7 +54,7 @@ fn hash_password(password: &str) -> String {
     format!("{:X}", hasher.finalize())
 }
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct User {
     pub username: String,
     password: String,
