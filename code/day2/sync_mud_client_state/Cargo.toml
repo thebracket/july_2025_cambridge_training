@@ -1,0 +1,9 @@
+[package]
+name = "sync_mud_client_state"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sync_mud_proto_state = { path = "../sync_mud_proto_state" }
+rooms_library2 = { path = "../rooms_library2" }
+anyhow = "1"

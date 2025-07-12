@@ -1,0 +1,10 @@
+[package]
+name = "sync_mud_proto"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde.workspace = true
+rooms_library2 = { path = "../rooms_library2" }
+bincode = "1"
+anyhow.workspace = true

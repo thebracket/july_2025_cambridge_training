@@ -1,0 +1,13 @@
+[package]
+name = "sync_mud_server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow.workspace = true
+rooms_library2 = { path = "../rooms_library2" }
+login_library2 = { path = "../login_library2" }
+tracing.workspace = true
+tracing-subscriber.workspace = true
+sync_mud_proto = { path = "../sync_mud_proto" }
+
