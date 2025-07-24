@@ -40,7 +40,7 @@ members = [
     "day3/async_mud_client",
 
     "bonus/proc_macros/deriver",
-    "bonus/proc_macros/deriver-macros",
+    "bonus/proc_macros/deriver-macros", "live/buckets",
 ]
 
 [workspace.dependencies]

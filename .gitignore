@@ -2,3 +2,7 @@ code/target
 manual/book
 code/vendor
 
+code/bonus/ff1/rust_to_c/target/
+code/bonus/py_from_rust/target/
+code/bonus/py/string_sum/target/
+code/bonus/ffi1/rust_to_c_string/target/

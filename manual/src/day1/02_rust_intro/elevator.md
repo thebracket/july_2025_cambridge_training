@@ -1,7 +1,5 @@
 # Rust in an Elevator
 
-*(Insert graphic here)*
-
 Graydon Hoare likes to tell people that Rust came about because of a broken elevator.  
 The Mozilla office elevator kept failing, and after multiple vendor repair attempts, the root cause turned out to be a firmware bug — in some badly written C.
 
